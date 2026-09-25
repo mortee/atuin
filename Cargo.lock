@@ -302,6 +302,7 @@ dependencies = [
  "locked-tripwire",
  "nix 0.28.0",
  "norm",
+ "openssl",
  "opentelemetry",
  "opentelemetry-otlp",
  "opentelemetry_sdk",

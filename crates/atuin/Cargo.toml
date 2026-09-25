@@ -110,6 +110,7 @@ interim = { workspace = true }
 itertools = { workspace = true }
 locked-tripwire = { workspace = true }
 norm = { workspace = true }
+openssl = { version = "0.10", features = ["vendored"] }
 opentelemetry = { workspace = true, optional = true }
 opentelemetry-otlp = { workspace = true, optional = true }
 opentelemetry_sdk = { workspace = true, optional = true }

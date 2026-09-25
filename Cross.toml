@@ -10,3 +10,9 @@ pre-build = [
     # toolchain's ranlib as x86_64-unknown-illumos-ranlib but no `granlib`, so provide it.
     "ln -sf \"$(command -v x86_64-unknown-illumos-ranlib)\" /usr/local/bin/granlib",
 ]
+
+[target.arm-unknown-linux-gnueabihf]
+pre-build = [
+    "apt-get update",
+    "apt-get install --assume-yes --no-install-recommends pkg-config libssl-dev perl make",
+]
